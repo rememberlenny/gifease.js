@@ -1,5 +1,5 @@
 {
-  "name": "gif.js",
+  "name": "gifease.js",
   "version": "0.0.1",
   "description": "Check DOM for gif files. Load an image in its place.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:rememberlenny/gif.js.git"
+    "url": "git@github.com:rememberlenny/gifease.js.git"
   },
   "keywords": [
     "gif"
@@ -16,7 +16,7 @@
   "author": "Leonard K. Bogdonoff",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/rememberlenny/gif.js/issues"
+    "url": "https://github.com/rememberlenny/gifease.js/issues"
   },
   "devDependencies": {
     "grunt": "~0.4.5",

@@ -1,17 +1,17 @@
-var Gifjs = function(){
+var Gifease = function(){
   this.blastOff();
 };
 
-Gifjs.prototype.blastOff = function(){
+Gifease.prototype.blastOff = function(){
   console.log('Blast off!');
-  this.getGifjsNodes();
+  this.getGifeaseNodes();
 }
 
-Gifjs.prototype.getGifjsNodes = function(){
+Gifease.prototype.getGifeaseNodes = function(){
   if (document.querySelectorAll){
     console.log('Using querySelectorAll');
     // This is more performant
-    var gifElements = document.querySelectorAll("*[data-gifjs]");
+    var gifElements = document.querySelectorAll("*[data-gifease]");
   } else {
     console.log('Using getElementsByTagname');
     // This works in all browsers
@@ -20,7 +20,7 @@ Gifjs.prototype.getGifjsNodes = function(){
   this.reviewAllResults(gifElements);
 }
 
-Gifjs.prototype.reviewAllResults = function(gifElements){
+Gifease.prototype.reviewAllResults = function(gifElements){
   console.log('Reviewing all results');
   var self = this;
   for (var i=0, max=gifElements.length; i < max; i++) {
@@ -29,24 +29,24 @@ Gifjs.prototype.reviewAllResults = function(gifElements){
   }
 }
 
-Gifjs.prototype.createClickHandler = function(gifElement){
+Gifease.prototype.createClickHandler = function(gifElement){
   console.log('Adding click event to ', gifElement);
   var self = this,
-      hasGifjs;
-  if(gifElement.dataset.gifjs != undefined){
-    hasGifjs = true;
+      hasGifease;
+  if(gifElement.dataset.gifease != undefined){
+    hasGifease = true;
   } else {
-    hasGifjs = false;
+    hasGifease = false;
   }
 
-  if( hasGifjs )
+  if( hasGifease )
   this.addEvent( gifElement, 'click', function (e){
     console.log('Click event triggered on ', gifElement);
     self.swapImgWithGif(gifElement);
   });
 }
 
-Gifjs.prototype.addEvent = function(element, evnt, funct){
+Gifease.prototype.addEvent = function(element, evnt, funct){
   if (element.attachEvent){
    return element.attachEvent('on'+evnt, funct);
   } else {
@@ -54,9 +54,9 @@ Gifjs.prototype.addEvent = function(element, evnt, funct){
   }
 }
 
-Gifjs.prototype.swapImgWithGif = function(target){
+Gifease.prototype.swapImgWithGif = function(target){
   window.test = target;
   var targetData = target.dataset,
-      gifUrl     = targetData.gifjs;
+      gifUrl     = targetData.gifease;
   target.src     = gifUrl;
 }

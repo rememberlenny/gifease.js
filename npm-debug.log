@@ -1,0 +1,134 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/lkbgift/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/tj/kw_j4ymd40n_yyg9bzp9kn7w0000gn/T/npm-2601-vzpcfKFv/1401468964192-0.374830900458619/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/tj/kw_j4ymd40n_yyg9bzp9kn7w0000gn/T/npm-2601-vzpcfKFv/1401468964192-0.374830900458619/tmp.tgz
+12 verbose folder .
+13 info prepublish gif.js@0.0.1
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/lkbgift/.npm/1f1177db-tar.lock
+16 silly lockFile 5b3fea4a-964192-0-374830900458619-tmp-tgz tar:///var/folders/tj/kw_j4ymd40n_yyg9bzp9kn7w0000gn/T/npm-2601-vzpcfKFv/1401468964192-0.374830900458619/tmp.tgz
+17 verbose lock tar:///var/folders/tj/kw_j4ymd40n_yyg9bzp9kn7w0000gn/T/npm-2601-vzpcfKFv/1401468964192-0.374830900458619/tmp.tgz /Users/lkbgift/.npm/5b3fea4a-964192-0-374830900458619-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 5b3fea4a-964192-0-374830900458619-tmp-tgz tar:///var/folders/tj/kw_j4ymd40n_yyg9bzp9kn7w0000gn/T/npm-2601-vzpcfKFv/1401468964192-0.374830900458619/tmp.tgz
+21 silly lockFile 5b3fea4a-964192-0-374830900458619-tmp-tgz tar:///var/folders/tj/kw_j4ymd40n_yyg9bzp9kn7w0000gn/T/npm-2601-vzpcfKFv/1401468964192-0.374830900458619/tmp.tgz
+22 verbose tar unpack /var/folders/tj/kw_j4ymd40n_yyg9bzp9kn7w0000gn/T/npm-2601-vzpcfKFv/1401468964192-0.374830900458619/tmp.tgz
+23 silly lockFile 3e34a807-lkbgift-npm-gif-js-0-0-1-package tar:///Users/lkbgift/.npm/gif.js/0.0.1/package
+24 verbose lock tar:///Users/lkbgift/.npm/gif.js/0.0.1/package /Users/lkbgift/.npm/3e34a807-lkbgift-npm-gif-js-0-0-1-package.lock
+25 silly lockFile 5b3fea4a-964192-0-374830900458619-tmp-tgz tar:///var/folders/tj/kw_j4ymd40n_yyg9bzp9kn7w0000gn/T/npm-2601-vzpcfKFv/1401468964192-0.374830900458619/tmp.tgz
+26 verbose lock tar:///var/folders/tj/kw_j4ymd40n_yyg9bzp9kn7w0000gn/T/npm-2601-vzpcfKFv/1401468964192-0.374830900458619/tmp.tgz /Users/lkbgift/.npm/5b3fea4a-964192-0-374830900458619-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry Gruntfile.js
+32 silly gunzTarPerm extractEntry index.js
+33 silly gunzTarPerm extractEntry .travis.yml
+34 silly gunzTarPerm extractEntry .yo-rc.json
+35 silly gunzTarPerm extractEntry example/example.gif
+36 silly gunzTarPerm extractEntry example/index.html
+37 silly gunzTarPerm extractEntry test/index.html
+38 silly lockFile 3e34a807-lkbgift-npm-gif-js-0-0-1-package tar:///Users/lkbgift/.npm/gif.js/0.0.1/package
+39 silly lockFile 3e34a807-lkbgift-npm-gif-js-0-0-1-package tar:///Users/lkbgift/.npm/gif.js/0.0.1/package
+40 silly lockFile 5b3fea4a-964192-0-374830900458619-tmp-tgz tar:///var/folders/tj/kw_j4ymd40n_yyg9bzp9kn7w0000gn/T/npm-2601-vzpcfKFv/1401468964192-0.374830900458619/tmp.tgz
+41 silly lockFile 5b3fea4a-964192-0-374830900458619-tmp-tgz tar:///var/folders/tj/kw_j4ymd40n_yyg9bzp9kn7w0000gn/T/npm-2601-vzpcfKFv/1401468964192-0.374830900458619/tmp.tgz
+42 silly lockFile 3a52ce78- .
+43 silly lockFile 3a52ce78- .
+44 silly publish { name: 'gif.js',
+44 silly publish   version: '0.0.1',
+44 silly publish   description: 'Check DOM for gif files. Load an image in its place.',
+44 silly publish   main: 'index.js',
+44 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+44 silly publish   repository: { type: 'git', url: 'git@github.com:rememberlenny/gif.js.git' },
+44 silly publish   keywords: [ 'gif' ],
+44 silly publish   author: { name: 'Leonard K. Bogdonoff' },
+44 silly publish   license: 'BSD-2-Clause',
+44 silly publish   bugs: { url: 'https://github.com/rememberlenny/gif.js/issues' },
+44 silly publish   devDependencies:
+44 silly publish    { grunt: '~0.4.5',
+44 silly publish      'grunt-contrib-concat': '~0.4.0',
+44 silly publish      'grunt-contrib-uglify': '~0.4.0',
+44 silly publish      'grunt-contrib-qunit': '~0.4.0',
+44 silly publish      'grunt-contrib-jshint': '~0.10.0',
+44 silly publish      'grunt-contrib-watch': '~0.6.1' },
+44 silly publish   readme: '![image](https://raw.githubusercontent.com/rememberlenny/gif.js/master/example/example.gif)\n# Gif.js\n\nA gif performance management service.\n\n## description\n\nGif.js looks at your DOM for all your images with a data-gif attribute. If an image tag has a data-gif attribute, it will create a click handler on the element. The handler will replace the image with the gif file on click. This will help reduce unnecessary gif loading bandwidth.\n\n## instructions\nThis is one way to include gifjs.\n\n1. Include gif.js.\n`<script src="gif.js"></script>`\n\n2. Instantiate gif.js.\n`<script>gifjs = new Gifjs</script>`\n\n3. There is no step 3.\n\n## example\n\n**Before click**\n\n`<img src="/a/path/image.jpg" data-gifjs="/a/path/animate.gif">`\n\n![Before](http://fakeimg.pl/250x150?text=Static Image)\n\n\n\n**After click**\n\n`<img src="/a/path/animate.gif" data-gifjs="/a/path/animate.gif">`\n\n![After](http://media.giphy.com/media/12Ek91HBQ4khAA/giphy.gif)\n',
+44 silly publish   readmeFilename: 'README.md',
+44 silly publish   homepage: 'https://github.com/rememberlenny/gif.js',
+44 silly publish   _id: 'gif.js@0.0.1',
+44 silly publish   _shasum: '775409dc33b2c270a26c8fb9f76bc8bd06cb5c23',
+44 silly publish   _from: '.' }
+45 verbose url raw gif.js
+46 verbose url resolving [ 'https://registry.npmjs.org/', './gif.js' ]
+47 verbose url resolved https://registry.npmjs.org/gif.js
+48 info trying registry request attempt 1 at 12:56:04
+49 http PUT https://registry.npmjs.org/gif.js
+50 http 403 https://registry.npmjs.org/gif.js
+51 verbose headers { date: 'Fri, 30 May 2014 16:56:06 GMT',
+51 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+51 verbose headers   'content-type': 'application/json',
+51 verbose headers   'cache-control': 'max-age=1',
+51 verbose headers   'content-length': '6756',
+51 verbose headers   'accept-ranges': 'bytes',
+51 verbose headers   via: '1.1 varnish',
+51 verbose headers   'x-served-by': 'cache-d97-DAL',
+51 verbose headers   'x-cache': 'MISS',
+51 verbose headers   'x-cache-hits': '0',
+51 verbose headers   'x-timer': 'S1401468965.379652,VS0,VE725',
+51 verbose headers   'keep-alive': 'timeout=10, max=50',
+51 verbose headers   connection: 'Keep-Alive' }
+52 error publish Failed PUT 403
+53 error Error: forbidden user: rememberlenny not authorized to modify gif.js
+53 error Changed: description "JavaScript GIF encoding library" -> "Check DOM for gif files. Load an image in its place."
+53 error Changed: dist-tags.latest "0.1.6" -> "0.0.1"
+53 error Added: versions.0.0.1
+53 error Changed: readme "\u000a# gif.js\u000a\u000aJavaScript GIF encoder that runs in your browser.\u000a\u000aUses typed arrays and web workers to render each frame in the background, it's really fast!\u000a\u000a**Demo** - http://jnordberg.github.io/gif.js/\u000a\u000aWorks in browsers supporting: [Web Workers](http://www.w3.org/TR/workers/), [File API](http://www.w3.org/TR/FileAPI/) and [Typed Arrays](https://www.khronos.org/registry/typedarray/specs/latest/)\u000a\u000aTested in\u000a  * Google Chrome\u000a  * Firefox 17\u000a  * Safari 6\u000a  * Internet Explorer 10\u000a  * Mobile Safari iOS 6\u000a\u000a## Usage\u000a\u000aInclude `gif.js` found in `dist/` in your page. Also make sure to have `gif.worker.js` in the same location.\u000a\u000a```javascript\u000avar gif = new GIF({\u000a  workers: 2,\u000a  quality: 10\u000a});\u000a\u000a// add a image element\u000agif.addFrame(imageElement);\u000a\u000a// or a canvas element\u000agif.addFrame(canvasElement, {delay: 200});\u000a\u000a// or copy the pixels from a canvas context\u000agif.addFrame(ctx, {copy: true});\u000a\u000agif.on('finished', function(blob) {\u000a  window.open(URL.createObjectURL(blob));\u000a});\u000a\u000agif.render();\u000a```\u000a\u000a## Options\u000a\u000aOptions can be passed to the constructor or using the `setOptions` method.\u000a\u000a| Name         | Default         | Description                                        |\u000a| -------------|-----------------|----------------------------------------------------|\u000a| repeat       | `0`             | repeat count, `-1` = no repeat, `0` = forever      |\u000a| quality      | `10`            | pixel sample interval, lower is better             |\u000a| workers      | `2`             | number of web workers to spawn                     |\u000a| workerScript | `gif.worker.js` | url to load worker script from                     |\u000a| background   | `#fff`          | background color where source image is transparent |\u000a| width        | `null`          | output image width                                 |\u000a| height       | `null`          | output image height                                |\u000a| transparent  | `null`          | transparent hex color, `0x00FF00` = green          |\u000a\u000aIf width or height is `null` image size will be deteremined by first frame added.\u000a\u000a### addFrame options\u000a\u000a| Name         | Default         | Description                                        |\u000a| -------------|-----------------|----------------------------------------------------|\u000a| delay        | `500`           | frame delay                                        |\u000a| copy         | `false`         | copy the pixel data                                |\u000a\u000a## Wishlist\u000a\u000aIf you want to contribute, here's some stuff that would be nice to have.\u000a\u000a * Tests\u000a * Fallbacks and polyfills for old browsers\u000a * Dithering!\u000a\u000a## Acknowledgements\u000a\u000agif.js is based on:\u000a\u000a * [Kevin Weiner's Animated gif encoder classes](http://www.fmsware.com/stuff/gif.html)\u000a * [Neural-Net color quantization algorithm by Anthony Dekker](http://members.ozemail.com.au/~dekker/NEUQUANT.HTML)\u000a * [Thibault Imbert's as3gif](https://code.google.com/p/as3gif/)\u000a\u000a## License\u000a\u000aThe MIT License (MIT)\u000a\u000aCopyright (c) 2013 Johan Nordberg\u000a\u000aPermission is hereby granted, free of charge, to any person obtaining a copy\u000aof this software and associated documentation files (the \"Software\"), to deal\u000ain the Software without restriction, including without limitation the rights\u000ato use, copy, modify, merge, publish, distribute, sublicense, and/or sell\u000acopies of the Software, and to permit persons to whom the Software is\u000afurnished to do so, subject to the following conditions:\u000a\u000aThe above copyright notice and this permission notice shall be included in\u000aall copies or substantial portions of the Software.\u000a\u000aTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\u000aIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\u000aFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\u000aAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\u000aLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\u000aOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\u000aTHE SOFTWARE.\u000a" -> "![image](https://raw.githubusercontent.com/rememberlenny/gif.js/master/example/example.gif)\u000a# Gif.js\u000a\u000aA gif performance management service.\u000a\u000a## description\u000a\u000aGif.js looks at your DOM for all your images with a data-gif attribute. If an image tag has a data-gif attribute, it will create a click handler on the element. The handler will replace the image with the gif file on click. This will help reduce unnecessary gif loading bandwidth.\u000a\u000a## instructions\u000aThis is one way to include gifjs.\u000a\u000a1. Include gif.js.\u000a`<script src=\"gif.js\"></script>`\u000a\u000a2. Instantiate gif.js.\u000a`<script>gifjs = new Gifjs</script>`\u000a\u000a3. There is no step 3.\u000a\u000a## example\u000a\u000a**Before click**\u000a\u000a`<img src=\"/a/path/image.jpg\" data-gifjs=\"/a/path/animate.gif\">`\u000a\u000a![Before](http://fakeimg.pl/250x150?text=Static Image)\u000a\u000a\u000a\u000a**After click**\u000a\u000a`<img src=\"/a/path/animate.gif\" data-gifjs=\"/a/path/animate.gif\">`\u000a\u000a![After](http://media.giphy.com/media/12Ek91HBQ4khAA/giphy.gif)\u000a"
+53 error Changed: time.modified "2014-04-13T00:38:06.607Z" -> "2014-05-30T16:55:08.165Z"
+53 error Added: time.0.0.1
+53 error Changed: author.name "Johan Nordberg" -> "Leonard K. Bogdonoff"
+53 error Deleted: author.email
+53 error Changed: repository.url "https://github.com/jnordberg/gif.js.git" -> "git@github.com:rememberlenny/gif.js.git"
+53 error Changed: homepage "https://github.com/jnordberg/gif.js" -> "https://github.com/rememberlenny/gif.js"
+53 error Deleted: keywords.1
+53 error Deleted: keywords.2
+53 error Changed: bugs.url "https://github.com/jnordberg/gif.js/issues" -> "https://github.com/rememberlenny/gif.js/issues"
+53 error Changed: license "MIT" -> "BSD-2-Clause"
+53 error Added: _attachments: gif.js
+53 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:273:14)
+53 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:211:65)
+53 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+53 error     at Request.EventEmitter.emit (events.js:98:17)
+53 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+53 error     at Request.EventEmitter.emit (events.js:117:20)
+53 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+53 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+53 error     at _stream_readable.js:919:16
+53 error     at process._tickCallback (node.js:419:13)
+54 error If you need help, you may report this *entire* log,
+54 error including the npm and node versions, at:
+54 error     <http://github.com/npm/npm/issues>
+55 error System Darwin 13.1.0
+56 error command "node" "/usr/local/bin/npm" "publish"
+57 error cwd /Users/lkbgift/Spaceship/gif.js
+58 error node -v v0.10.28
+59 error npm -v 1.4.9
+60 verbose exit [ 1, true ]
