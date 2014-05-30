@@ -18,9 +18,7 @@ Gifjs.prototype.getGifjsNodes = function(){
 Gifjs.prototype.reviewAllResults = function(gifElements){
   var self = this;
   for (var i=0, max=gifElements.length; i < max; i++) {
-    self.addEvent( gifElements[i], 'click', function (){
-      alert('hi!');
-    });
+    self.createClickHandler(gifElements[i]);
   }
 }
 
@@ -32,6 +30,13 @@ Gifjs.prototype.addEvent = function(element, evnt, funct){
   }
 }
 
-Gifjs.prototype.replaceImgWithGif = function(){
+Gifjs.prototype.createClickHandler = function(gifElement){
+  var self = this;
+  this.addEvent( gifElement, 'click', function (){
+    this.swapImgWithGif(gifElement);
+  });
+}
+
+Gifjs.prototype.swapImgWithGif = function(gifElement){
 
 }
