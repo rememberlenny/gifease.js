@@ -7,11 +7,13 @@ A gif performance management service.
 Gif.js looks at your DOM for all your images with a data-gif attribute. If an image tag has a data-gif attribute, it will create a click handler on the element. The handler will replace the image with the gif file on click. This will help reduce unnecessary gif loading bandwidth.
 
 ## instructions
+This is one way to include gifjs.
 
-1. Instantiate Gifjs.
-`gifjs = new Gifjs`
+1. Include gif.js.
+`<script src="gif.js"></script>`
 
-2. Done.
+2. Instantiate gif.js.
+`<script>gifjs = new Gifjs</script>`
 
 ## example
 
