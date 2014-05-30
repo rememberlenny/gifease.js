@@ -30,8 +30,16 @@ Gifjs.prototype.reviewAllResults = function(gifElements){
 }
 
 Gifjs.prototype.createClickHandler = function(gifElement){
-  var self = this;
   console.log('Adding click event to ', gifElement);
+  var self = this,
+      hasGifjs;
+  if(gifElement.dataset.gifjs != undefined){
+    hasGifjs = true;
+  } else {
+    hasGifjs = false;
+  }
+
+  if( hasGifjs )
   this.addEvent( gifElement, 'click', function (e){
     console.log('Click event triggered on ', gifElement);
     self.swapImgWithGif(gifElement);
@@ -47,6 +55,7 @@ Gifjs.prototype.addEvent = function(element, evnt, funct){
 }
 
 Gifjs.prototype.swapImgWithGif = function(target){
+  window.test = target;
   var targetData = target.dataset,
       gifUrl     = targetData.gifjs;
   target.src     = gifUrl;
