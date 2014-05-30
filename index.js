@@ -9,9 +9,11 @@ Gifjs.prototype.blastOff = function(){
 
 Gifjs.prototype.getGifjsNodes = function(){
   if (document.querySelectorAll){
+    console.log('Using querySelectorAll');
     // This is more performant
     var gifElements = document.querySelectorAll("*[data-gifjs]");
   } else {
+    console.log('Using getElementsByTagname');
     // This works in all browsers
     var gifElements = document.getElementsByTagName("*");
   }
@@ -19,10 +21,21 @@ Gifjs.prototype.getGifjsNodes = function(){
 }
 
 Gifjs.prototype.reviewAllResults = function(gifElements){
+  console.log('Reviewing all results');
   var self = this;
   for (var i=0, max=gifElements.length; i < max; i++) {
+    console.log('Reviewing ', gifElements[i]);
     self.createClickHandler(gifElements[i]);
   }
+}
+
+Gifjs.prototype.createClickHandler = function(gifElement){
+  var self = this;
+  console.log('Adding click event to ', gifElement);
+  this.addEvent( gifElement, 'click', function (e){
+    console.log('Click event triggered on ', gifElement);
+    self.swapImgWithGif(gifElement);
+  });
 }
 
 Gifjs.prototype.addEvent = function(element, evnt, funct){
@@ -33,15 +46,8 @@ Gifjs.prototype.addEvent = function(element, evnt, funct){
   }
 }
 
-Gifjs.prototype.createClickHandler = function(gifElement){
-  var self = this;
-  this.addEvent( gifElement, 'click', function (e){
-    self.swapImgWithGif(e.target);
-  });
-}
-
 Gifjs.prototype.swapImgWithGif = function(target){
   var targetData = target.dataset,
-      gifUrl     = targetData.gif;
+      gifUrl     = targetData.gifjs;
   target.src     = gifUrl;
 }
