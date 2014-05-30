@@ -16,9 +16,9 @@ Gif.js looks at your DOM for all your images with a data-gif attribute. If an im
 ## example
 
 Before click
-![]()
+![Before](http://fakeimg.pl/250x150)
 `<img src="/a/path/image.jpg" data-gifjs="/a/path/animate.gif">`
 
 After click
-![]()
+![After](http://media.giphy.com/media/12Ek91HBQ4khAA/giphy.gif)
 `<img src="/a/path/animate.gif" data-gifjs="/a/path/animate.gif">`
