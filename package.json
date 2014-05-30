@@ -1,0 +1,21 @@
+{
+  "name": "gif.js",
+  "version": "0.0.1",
+  "description": "Check DOM for gif files. Load an image in its place.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rememberlenny/gif.js.git"
+  },
+  "keywords": [
+    "gif"
+  ],
+  "author": "Leonard K. Bogdonoff",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/rememberlenny/gif.js/issues"
+  }
+}
