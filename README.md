@@ -1,3 +1,5 @@
+![image](https://raw.githubusercontent.com/rememberlenny/gif.js/master/example/example.gif)
+
 # Gif.js
 
 A gif performance management service.
