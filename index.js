@@ -1,6 +1,9 @@
-var Gifjs = {};
+var Gifjs = function(){
+  this.blastOff();
+};
 
 Gifjs.prototype.blastOff = function(){
+  console.log('Blast off!');
   this.getGifjsNodes();
 }
 

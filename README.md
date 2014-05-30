@@ -8,7 +8,7 @@ Gif.js looks at your DOM for all your images with a data-gif attribute. If an im
 
 ## example
 
-`<img src="/a/path/image.jpg" data-gif="/a/path/animate.gif">`
+`<img src="/a/path/image.jpg" data-gifjs="/a/path/animate.gif">`
 
 ## todo
 
