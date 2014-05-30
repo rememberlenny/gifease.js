@@ -19,10 +19,6 @@
     "url": "https://github.com/rememberlenny/gif.js/issues"
   },
   "devDependencies": {
-    "karma-jasmine": "~0.1.5",
-    "grunt": "~0.4.5",
-    "karma": "~0.12.16",
-    "grunt-karma": "~0.8.3",
-    "karma-phantomjs-launcher": "~0.1.4"
+    "grunt": "~0.4.5"
   }
 }
