@@ -32,11 +32,13 @@ Gifjs.prototype.addEvent = function(element, evnt, funct){
 
 Gifjs.prototype.createClickHandler = function(gifElement){
   var self = this;
-  this.addEvent( gifElement, 'click', function (){
-    this.swapImgWithGif(gifElement);
+  this.addEvent( gifElement, 'click', function (e){
+    self.swapImgWithGif(e.target);
   });
 }
 
-Gifjs.prototype.swapImgWithGif = function(gifElement){
-
+Gifjs.prototype.swapImgWithGif = function(target){
+  var targetData = target.dataset,
+      gifUrl     = targetData.gif;
+  target.src     = gifUrl;
 }
