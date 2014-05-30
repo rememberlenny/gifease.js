@@ -16,9 +16,15 @@ Gifjs.prototype.getGifjsNodes = function(){
 }
 
 Gifjs.prototype.reviewAllResults = function(gifElements){
-
-  for (var i=0, max=all.length; i < max; i++) {
+  for (var i=0, max=gifElements.length; i < max; i++) {
 
   }
+}
 
+Gifjs.prototype.addEvent = function(element, evnt, funct){
+  if (element.attachEvent){
+   return element.attachEvent('on'+evnt, funct);
+  } else {
+   return element.addEventListener(evnt, funct, false);
+  }
 }
