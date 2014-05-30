@@ -19,7 +19,7 @@ Before click
 
 `<img src="/a/path/image.jpg" data-gifjs="/a/path/animate.gif">`
 
-![Before](http://fakeimg.pl/250x150)
+![Before](http://fakeimg.pl/250x150?text=Static Image)
 
 
 
