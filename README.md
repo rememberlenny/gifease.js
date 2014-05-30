@@ -15,6 +15,8 @@ This is one way to include gifjs.
 2. Instantiate gif.js.
 `<script>gifjs = new Gifjs</script>`
 
+3. There is no step 3.
+
 ## example
 
 Before click
