@@ -1,5 +1,4 @@
 ![image](https://raw.githubusercontent.com/rememberlenny/gif.js/master/example/example.gif)
-
 # Gif.js
 
 A gif performance management service.
@@ -21,7 +20,7 @@ This is one way to include gifjs.
 
 ## example
 
-Before click
+**Before click**
 
 `<img src="/a/path/image.jpg" data-gifjs="/a/path/animate.gif">`
 
@@ -29,7 +28,7 @@ Before click
 
 
 
-After click
+**After click**
 
 `<img src="/a/path/animate.gif" data-gifjs="/a/path/animate.gif">`
 
