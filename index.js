@@ -1,7 +1,7 @@
 var Gifjs = {};
 
 Gifjs.prototype.blastOff = function(){
-
+  this.getGifjsNodes();
 }
 
 Gifjs.prototype.getGifjsNodes = function(){
@@ -16,8 +16,11 @@ Gifjs.prototype.getGifjsNodes = function(){
 }
 
 Gifjs.prototype.reviewAllResults = function(gifElements){
+  var self = this;
   for (var i=0, max=gifElements.length; i < max; i++) {
-
+    self.addEvent( gifElements[i], 'click', function (){
+      alert('hi!');
+    });
   }
 }
 
@@ -27,4 +30,8 @@ Gifjs.prototype.addEvent = function(element, evnt, funct){
   } else {
    return element.addEventListener(evnt, funct, false);
   }
+}
+
+Gifjs.prototype.replaceImgWithGif = function(){
+
 }
